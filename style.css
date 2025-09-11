@@ -1,0 +1,65 @@
+body {
+    font-family: georgia, serif;
+}
+
+h1 {
+    color: #0f172a;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #0f172a;
+}
+
+p {
+    line-height: 1.6;
+}
+
+button {
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+.cartao {
+    border: 1px solid #cbd5e1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.cartao:hover {
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    margin: auto;
+}
+
+#cabecalho-principal {
+    background-color: #f8fafc
+}
+
+#rodape-principal {
+    color: #334155;
+}
+
+.botao-destaque {
+    background-color: #ef4444;
+}
+
+.cartao info {
+    background-color: #475569;
+}
+
+a:hover {
+    color: #dc2626;
+}
+nav > li{
+    list-style: none;
+}
